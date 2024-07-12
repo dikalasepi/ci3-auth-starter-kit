@@ -1,0 +1,12 @@
+{
+    "name": "dikalasepi/ci3-auth-starter-kit",
+    "description": "This is a Codeigniter 3 starter app with authentication features.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ramadhan Yoga",
+            "email": "dhan.yogarama@gmail.com"
+        }
+    ],
+    "require": {}
+}
