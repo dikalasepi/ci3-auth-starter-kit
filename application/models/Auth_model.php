@@ -107,7 +107,7 @@ class Auth_model extends CI_Model
 
         if (!$this->email->send()) {
             if (ENVIRONMENT !== 'production') {
-                throw new Exception($this->email->print_debuger());
+                throw new Exception($this->email->print_debugger());
             } else {
                 throw new Exception('Sending email process is failed. Please try again later.');
             }
